@@ -1,0 +1,12 @@
+This is a demo to push a file from local repo to github.
+git init - Initialises git folder i.e. making current directory enable for git commands
+git add . - It will add the changes to staging area
+git commit -m "Commited" - This will commit all the changes
+git remote add origin "url of repo"  - This will link our local folder to the repositry whose url we are pasting here
+git push origin main - This will then push the code to the origin
+git branch -M main  - This will change the branch from master to main
+
+Assume a situation where we added a file and changed its first line from local and repo at the same and will try to push local changes the repositry.
+It will say there is a conflict between the two what changes to commit first.
+In such cases we will pull the code first then merge the conflict ann then push the changes
+Some changes
